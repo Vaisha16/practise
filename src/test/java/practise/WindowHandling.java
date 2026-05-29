@@ -70,6 +70,8 @@ public class WindowHandling {
 
 			driver.switchTo().window(parentWindow);
 
+			System.out.println();
+
 		} catch (Exception e) {
 
 			e.printStackTrace();
